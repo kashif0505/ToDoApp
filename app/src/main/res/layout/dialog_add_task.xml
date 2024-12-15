@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background"
+    android:layout_gravity="center">
+
+    <!-- Task Title Field -->
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Task Title"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/secondaryTextColor"
+        android:background="@drawable/rounded_input"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Task title input field"/>
+
+    <!-- Task Description Field -->
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Task Description"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/secondaryTextColor"
+        android:background="@drawable/rounded_input"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Task description input field"/>
+
+    <!-- Select Date Button -->
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Select Date"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Select a date for the task"/>
+
+
+    <!-- Date Display TextView -->
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No date selected"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Selected task date"/>
+
+</LinearLayout>

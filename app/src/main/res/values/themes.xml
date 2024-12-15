@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.ToDoApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Set the background for the whole app -->
+        <item name="android:windowBackground">@drawable/background_wallpaper</item>
+    </style>
+</resources>

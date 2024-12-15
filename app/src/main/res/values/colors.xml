@@ -1,0 +1,16 @@
+<resources>
+<color name="backgroundColor">#F5F5F5</color>
+<color name="primaryTextColor">#212121</color>
+<color name="secondaryTextColor">#757575</color>
+<color name="primaryColor">#6200EE</color>
+<color name="white">#FFFFFF</color>
+
+<!-- Button Background Color -->
+<color name="buttonColor">#FF6200EE</color> <!-- Example color, change to your preferred color -->
+
+<!-- Card Background Color -->
+<color name="cardBackgroundColor">#FFFFFF</color> <!-- Example color, change to your preferred color -->
+
+<!-- Input Border Color -->
+<color name="inputBorderColor">#E0E0E0</color> <!-- Example color, change to your preferred color -->
+</resources>

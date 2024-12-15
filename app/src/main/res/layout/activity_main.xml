@@ -1,0 +1,47 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/backgroundColor">
+
+<!-- Logout Button at the Top Right Corner -->
+<Button
+    android:id="@+id/btnLogout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Logout"
+    android:textColor="@color/white"
+    android:background="@drawable/rounded_button"
+    android:textSize="14sp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp" />
+
+<!-- Main content (tasks list and add task button) -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_below="@id/btnLogout">  <!-- Make sure this is below the logout button -->
+
+    <!-- Add Task Button -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:text="Add Task" />
+
+    <!-- Tasks List -->
+    <ListView
+        android:id="@+id/lvTasks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
+
+</RelativeLayout>
